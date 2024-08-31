@@ -5,9 +5,9 @@ import CompniesLogo from '../components/CompniesLogo'
 function Hero() {
     return (
         <>
-            <div className="bg-[#F0F3F6] w-full h-screen justify-start flex flex-col items-center py-[32px]">
-                <img src="assets/grid.png" alt="" srcset="" className='absolute -z-0 top-0 left-0 max-w-full' />
-
+            <div className=" w-full h-screen justify-start flex flex-col items-center py-[32px] overflow-hidden ">
+                <img src="assets/grid.png" alt="" srcset="" className='absolute -z-10 top-0 left-0 max-w-full  ' />
+                <div className="bg-[#F0F3F6] -z-20 w-full h-screen absolute top-0 left-0"></div>
                 <NavBar />
 
                 <div className=" text-center self-center justify-self-center my-auto z-10 w-full">
