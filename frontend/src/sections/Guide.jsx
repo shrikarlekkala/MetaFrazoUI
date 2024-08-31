@@ -8,7 +8,7 @@ function Guide() {
                 <div className="text-[40px] font-bold my-6">
                     How It Works?
                 </div>
-                <div className="text-[20px]">
+                <div className="text-[20px] text-center">
                     Transforming your videos into multiple languages has never been easier! Follow these simple <br />steps to upload your content, choose your desired languages, and let our AI work its magic.
                 </div>
                 <div className="w-4/5 mt-12">
