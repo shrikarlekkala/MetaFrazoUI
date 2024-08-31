@@ -10,7 +10,7 @@ function PriceCard() {
                     </div>
                     <div className="text-[18px] text-center">For course creators who need efficient translation</div>
                 </div>
-                <div className="flex justify-end items-center ">
+                <div className="flex justify-end items-center text-[#0A47F2] ">
                     <span className='text-[40px] font-bold'>$3</span>
                     <span className='text-[18px]'>/minute</span>
                 </div>

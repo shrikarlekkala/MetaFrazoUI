@@ -1,4 +1,7 @@
 import Benefits from "./sections/Benefits";
+import CTA from "./sections/CTA";
+import Email from "./sections/Email";
+import FAQ from "./sections/FAQ";
 import Features from "./sections/Features";
 import Guide from "./sections/Guide";
 import Hero from "./sections/Hero";
@@ -20,6 +23,10 @@ export default function App() {
     <Benefits/>
     <Reviews/>
     <Prices/>
+    <div className="h-[50vh] w-full bg-[#F0F3F6]"></div>
+    <FAQ/>
+    <Email/>
+    <CTA/>
     </>
   )
 }

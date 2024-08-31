@@ -5,7 +5,7 @@ function Prices() {
     return (
         <>
             <div className="bg-black w-full flex flex-col justify-center items-center text-white h-[1336px] ">
-                <img src="assets/Union.png" alt="" srcset="" className='absolute w-full ' />
+                <img src="assets/Union.png" alt="" srcset="" className='absolute w-full overflow-hidden' />
                 <div className="pt-96 z-20 flex flex-col items-center justify-center">
 
                 
@@ -22,7 +22,7 @@ function Prices() {
                     <div className="text-[20px] text-[#8EAAF9] font-bold">Monthly</div>
 
                 </div>
-                <div className="flex z-20 mt-16 space-x-6">
+                <div className="flex z-20 mt-16 space-x-12">
                     <PriceCard/>
                     <PriceCard/>
                     <PriceCard/>

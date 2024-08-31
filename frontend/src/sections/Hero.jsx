@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import CompniesLogo from '../components/CompniesLogo'
+import CTABtn from '../components/CTABtn'
 
 function Hero() {
     return (
@@ -19,7 +20,7 @@ function Hero() {
                         Globalize your content with lip-sync, preserved original voices, and accurate <br /> on-screen text translation—faster and more cost-effectively than ever
                     </div>
                     <div className="mt-[14px]">
-                        <button className="bg-[#0A47F2] text-[18px] font-bold text-[#fff] py-[10px] px-[25px] rounded-[16px] mt-[30px] ">Get Started Now</button>
+                            <CTABtn/>
                         <div className="text-[16px] mt-2">
                         Learn More
                         </div>
