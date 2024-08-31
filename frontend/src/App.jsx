@@ -1,12 +1,9 @@
-import Hero from "./section/Hero";
-import Products from "./section/Products";
+import Hero from "./sections/Hero";
 
 export default function App() {
   return (
     <>
     <Hero/>
-    <Products/>
-    
     </>
   )
 }
