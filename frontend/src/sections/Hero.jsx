@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import CompniesLogo from '../components/CompniesLogo'
 
 function Hero() {
     return (
@@ -9,7 +10,7 @@ function Hero() {
 
                 <NavBar />
 
-                <div className=" text-center self-center justify-self-center my-auto z-10">
+                <div className=" text-center self-center justify-self-center my-auto z-10 w-full">
                     <div className="font-satoshi-lightItalic text-[56px] leading-[67px] font-bold">
                         AI Dubbing and Translation <br />
                         for <span className='text-[#0A47F2]'>Educators</span>
@@ -17,11 +18,18 @@ function Hero() {
                     <div className="text-[20px] leading-[30px] font-normal pt-[24px]">
                         Globalize your content with lip-sync, preserved original voices, and accurate <br /> on-screen text translation—faster and more cost-effectively than ever
                     </div>
-                    <div className="pt-[48px]">
-                        <button className="bg-[#0A47F2] text-[18px] font-bold text-[#fff] py-[10px] px-[25px] rounded-[16px] mt-[30px] ">Get Started</button>
-                        <div className="text-[16px] mt-8">
+                    <div className="mt-[14px]">
+                        <button className="bg-[#0A47F2] text-[18px] font-bold text-[#fff] py-[10px] px-[25px] rounded-[16px] mt-[30px] ">Get Started Now</button>
+                        <div className="text-[16px] mt-2">
                         Learn More
                         </div>
+                    </div>
+                    <div className="flex-col flex items-center justify-center mt-[48px] ">
+
+                        <div className="text-[16px] mt-8">
+                        Helping people translate videos at
+                        </div>
+                        <CompniesLogo/>
                     </div>
                 </div>
             </div>
