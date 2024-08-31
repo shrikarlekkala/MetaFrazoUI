@@ -36,7 +36,7 @@ function Guide() {
                         <div className="w-[352px] h-[352px] bg-white rounded-[32px]"></div>
                     </div>
                     <div className="flex mt-6">
-                        <div className="w-[728px] h-[352px] bg-white rounded-[32px]"></div>
+                        <div className="w-[728px] h-[352px] grow bg-white rounded-[32px]"></div>
                         <div className="w-[352px] h-[352px] rounded-[32px] px-12 p-6">
                             <div className="text-[24px] text-[#0A47F2] font-bold ">
                                 3
@@ -55,7 +55,7 @@ function Guide() {
                             Review and download the translated video
                             </div>
                         </div>
-                        <div className="w-[728px] h-[352px] bg-white rounded-[32px]"></div>
+                        <div className="w-[728px] grow h-[352px] bg-white rounded-[32px]"></div>
 
                     </div>
                 </div>

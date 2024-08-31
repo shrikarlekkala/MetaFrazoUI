@@ -4,7 +4,7 @@ import ReviewCard from '../components/ReviewCard'
 function Reviews() {
     return (
         <>
-            <div className="bg-black w-full py-20 flex flex-col items-center justify-center text-white">
+            <div className="bg-black w-full pt-20 flex flex-col items-center justify-center text-white">
                 <img src="assets/Reviews.png" alt="" srcset="" className='w-[48px]' />
                 <div className="text-[56px] font-bold my-6">
                     Here’s what our users say
