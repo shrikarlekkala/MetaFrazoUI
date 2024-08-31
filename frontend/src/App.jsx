@@ -1,4 +1,5 @@
 import Features from "./sections/Features";
+import Guide from "./sections/Guide";
 import Hero from "./sections/Hero";
 import PreTest from "./sections/PreTest";
 import ShowReel from "./sections/ShowReel";
@@ -12,6 +13,7 @@ export default function App() {
     <PreTest/>
     <Testimonials/>
     <Features/>
+    <Guide/>
     </>
   )
 }
