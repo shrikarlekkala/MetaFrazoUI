@@ -3,6 +3,7 @@ import CTA from "./sections/CTA";
 import Email from "./sections/Email";
 import FAQ from "./sections/FAQ";
 import Features from "./sections/Features";
+import Footer from "./sections/Footer";
 import Guide from "./sections/Guide";
 import Hero from "./sections/Hero";
 import PreTest from "./sections/PreTest";
@@ -27,6 +28,7 @@ export default function App() {
     <FAQ/>
     <Email/>
     <CTA/>
+    <Footer/>
     </>
   )
 }
