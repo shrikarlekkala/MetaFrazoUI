@@ -1,4 +1,5 @@
 import React from 'react'
+import CTAWideBtn from '../components/CTAWideBtn'
 
 function Benefits() {
     return (
@@ -16,14 +17,7 @@ function Benefits() {
                     <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3"></div>
                     <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3"></div>
                 </div>
-                <div
-                    style={{
-                        boxShadow: "0px 0px 25px 10px #3277F826",
-                        background: "linear-gradient(0deg, #0A47F2 79.79%, #B5C9FF 122.34%),radial-gradient(342.89% 359.97% at 49.74% 48.94%, rgba(10, 71, 242, 0.5) 0%, rgba(181, 201, 255, 0.5) 100%)"
-
-
-                    }}
-                    className="w-[354px] bg-[#0A47F2] h-[51px] rounded-[16px] flex justify-center items-center text-white">Get Started Now</div>
+                <CTAWideBtn />
             </div>
         </>
     )

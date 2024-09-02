@@ -11,7 +11,7 @@ import Prices from "./sections/Prices";
 import Reviews from "./sections/Reviews";
 import ShowReel from "./sections/ShowReel";
 import Testimonials from "./sections/Testimonials";
-
+import './index.css'
 export default function App() {
   return (
     <>
