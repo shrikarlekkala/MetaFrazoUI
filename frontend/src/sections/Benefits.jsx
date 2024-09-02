@@ -10,7 +10,7 @@ function Benefits() {
                     Our intuitive platform makes it easy for anyone to create multilingual content, helping you <br />
                     connect with audiences around the world like never before.
                 </div>
-                <div className="w-4/5 flex flex-wrap justify-center mt-16 my-[64px]">
+                <div className=" flex flex-wrap justify-center mt-16 my-[64px]">
                     <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3"></div>
                     <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3"></div>
                     <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3"></div>

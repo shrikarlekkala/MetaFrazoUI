@@ -14,7 +14,7 @@ const logos = [
 
 ]
   return (
-    <div className='flex justify-evenly w-4/5 mt-4'>
+    <div className='flex justify-evenly mt-4 space-x-10'>
         {logos.map((logo) => (
             <img src={logo.src} alt={logo.name} srcset={logo.src} className='w-[48px]'/>
         ))}
