@@ -16,7 +16,10 @@ function Reviews() {
                 <div className="w-full overflow-y-auto my-16">
 
                     <div className="flex space-x-4">
-                        <ReviewCard />
+                        <div className='self-center'>
+
+                            <ReviewCard />
+                        </div>
                         <ReviewCard />
                         <ReviewCard />
                         <ReviewCard />

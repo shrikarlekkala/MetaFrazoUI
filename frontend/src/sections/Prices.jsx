@@ -5,7 +5,7 @@ function Prices() {
     return (
         <>
             <div className="bg-black w-full flex flex-col justify-center items-center text-white h-[1336px] ">
-                <img src="assets/Union.png" alt="" srcset="" className='absolute w-full overflow-hidden' />
+                <img src="assets/Union.png" alt="" srcset="" className='absolute w-full -z-10 overflow-hidden' />
                 <div className="pt-96 z-20 flex flex-col items-center justify-center">
 
                 

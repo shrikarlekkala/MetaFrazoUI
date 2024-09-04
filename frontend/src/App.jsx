@@ -12,7 +12,11 @@ import Reviews from "./sections/Reviews";
 import ShowReel from "./sections/ShowReel";
 import Testimonials from "./sections/Testimonials";
 import './index.css'
+import LocomotiveScroll from "locomotive-scroll";
+
 export default function App() {
+  const scroll = new LocomotiveScroll()
+
   return (
     <>
     <Hero/>
