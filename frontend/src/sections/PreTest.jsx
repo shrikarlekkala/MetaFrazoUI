@@ -16,10 +16,10 @@ function PreTest() {
     const containerRef = useRef(null);
     const sectionsRef = useRef([]);
 
-    const [Itm1Clr, setItm1Clr] = useState();
-    const [Itm2Clr, setItm2Clr] = useState();
-    const [Itm3Clr, setItm3Clr] = useState();
-    const [Itm4Clr, setItm4Clr] = useState();
+    const [Itm1Clr, setItm1Clr] = useState(color.clr1);
+    const [Itm2Clr, setItm2Clr] = useState(color.clr2);
+    const [Itm3Clr, setItm3Clr] = useState(color.clr3);
+    const [Itm4Clr, setItm4Clr] = useState(color.clr4);
     useEffect(() => {
         const trigger = ScrollTrigger.create({
             trigger: containerRef.current,
