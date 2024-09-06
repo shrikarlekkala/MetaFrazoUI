@@ -8,7 +8,7 @@ function CTABtn() {
                 boxShadow: "0px 0px 25px 10px #3277F826"
 
             }} 
-            className="bg-[#0A47F2] text-[18px] font-bold text-[#fff] py-[10px] px-[25px] rounded-[16px] mt-[30px] ">
+            className="bg-[#0A47F2] font-satoshi text-[18px] font-bold text-[#fff] py-[10px] px-[25px] rounded-[16px] mt-[30px] ">
                 
                 Get Started Now
                 </button>

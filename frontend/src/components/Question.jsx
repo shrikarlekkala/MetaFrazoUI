@@ -22,7 +22,7 @@ function Question() {
             <div className={"flex-col w-4/5 max-w-[1104px] bg-white  rounded-[32px] flex items-center justify-between px-6 duration-200"}>
                 <div className="flex items-center justify-between w-full h-[78px]">
 
-                    <div className="text-[20px] font-bold">Question</div>
+                    <div className="text-[20px] font-bold font-satoshi">Question</div>
                     <button onClick={handleClick} className={rotation + " duration-200"}>
 
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

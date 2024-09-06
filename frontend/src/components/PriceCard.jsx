@@ -6,16 +6,16 @@ function PriceCard() {
         <>
             <div className="w-[352px] h-[698px] bg-white rounded-[32px] flex flex-col text-black items-center justify-around p-8">
                 <div>
-                    <div className="text-[40px] font-bold flex items-center justify-center">
+                    <div className="text-[40px] font-bold flex items-center justify-center font-satoshi">
                         Creators
                     </div>
-                    <div className="text-[18px] text-center">For course creators who need efficient translation</div>
+                    <div className="text-[18px] text-center font-satoshiMed">For course creators who need efficient translation</div>
                 </div>
-                <div className="flex justify-end items-center text-[#0A47F2] ">
+                <div className="flex justify-end items-center text-[#0A47F2] font-satoshi ">
                     <span className='text-[40px] font-bold'>$3</span>
                     <span className='text-[18px]'>/minute</span>
                 </div>
-                <div className="flex flex-col space-y-4">
+                <div className="flex flex-col space-y-4 font-satoshiMed">
                     <div className="flex items-center space-x-2">
                         <div className='bg-black w-4 h-4 text-white rounded-full flex items-center justify-center'>
                             <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">

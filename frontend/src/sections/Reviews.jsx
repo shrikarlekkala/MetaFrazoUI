@@ -6,10 +6,10 @@ function Reviews() {
         <>
             <div className="bg-black w-full pt-20 flex flex-col items-center justify-center text-white">
                 <img src="assets/Reviews.png" alt="" srcset="" className='w-[48px]' />
-                <div className="text-[56px] font-bold my-6">
+                <div className="text-[56px] font-bold my-6 font-satoshi">
                     Here’s what our users say
                 </div>
-                <div className="text-[20px] text-center">
+                <div className="text-[20px] text-center font-satoshiMed">
                     Hear directly from our customers about how our platform has helped them save time, cut <br />
                     costs, and achieve accurate translations with ease.
                 </div>

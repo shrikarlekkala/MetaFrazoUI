@@ -2,11 +2,11 @@ import React from 'react'
 
 function NavBar() {
     const navItems = [
-        {title:'Products',href:'#',className:"text-[#0A47F2]"},
-        {title:'Features',href:'#',className:"text-[#]"},
-        {title:'Benefits',href:'#',className:"text-[#]"},
-        {title:'Pricing',href:'#',className:"text-[#]"},
-        {title:'Contact Us',href:'#',className:"text-[#"},
+        {title:'Products',href:'#',className:"text-[#0A47F2] font-satoshi "},
+        {title:'Features',href:'#',className:"text-[#] font-satoshiMed "},
+        {title:'Benefits',href:'#',className:"text-[#] font-satoshiMed "},
+        {title:'Pricing',href:'#',className:"text-[#] font-satoshiMed "},
+        {title:'Contact Us',href:'#',className:"text-[#] font-satoshiMed "},
 
     ]
     return (
@@ -22,8 +22,8 @@ function NavBar() {
 
                 </div>
                 <div className="flex justify-center items-center">
-                    <div className="text-sm font-medium mx-2">Login</div>
-                    <div className="text-sm font-medium mx-2 bg-[#0A47F2] text-white px-[25px] py-[10px] rounded-full">Sign Up</div>
+                    <div className="text-sm font-medium mx-2 font-satoshiMed">Login</div>
+                    <div className="text-sm font-medium mx-2 font-satoshi bg-[#0A47F2] text-white px-[25px] py-[10px] rounded-full">Sign Up</div>
                 </div>
             </div>
         </>

@@ -3,10 +3,10 @@ import React from 'react'
 function Footer() {
     return (
         <>
-            <div className="bg-[#0E0E0C] w-full flex p-48 pt-16 pb-0 text-white justify-between items-">
+            <div className="bg-[#0E0E0C] w-full flex p-48 pt-16 pb-0 font-satoshiMed text-white justify-between items-">
                 <div className="flex basis-1/3 flex-col space-y-6">
                     <img src="assets/logo.png" alt="" className='w-[352px]' />
-                    <div className="text-[14px]">
+                    <div className="text-[14px] font-satoshiMed">
                         Globalize your content with lip-sync, preserved original voices, and accurate on-screen text translation—faster and more cost-effectively than ever.
                     </div>
                     <div className="flex space-x-4">
@@ -45,7 +45,7 @@ function Footer() {
             <div className='bg-[#0E0E0C] p-64 py-28'>
                 <img src="assets/Logos/BigLogo.png" alt="" srcset="" />
             </div>
-            <div className="w-full text-center bg-[#0E0E0C] text-white pb-16">
+            <div className="w-full text-center font-satoshiMed bg-[#0E0E0C] text-white pb-16">
                 Copyright © 2024 MetaFrazo
             </div>
         </>
