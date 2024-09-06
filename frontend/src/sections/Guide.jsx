@@ -21,7 +21,15 @@ function Guide() {
                                 Upload your video to the platform
                             </div>
                         </div>
-                        <div className="bg-white grow rounded-[32px]"></div>
+                        <div className="bg-white grow rounded-[32px] p-6 ">
+                            <div className="border-dashed border-2 w-full h-full flex items-center flex-col justify-center border-[#8EAAF9] rounded-[24px]">
+                                <div className="flex flex-col items-center justify-center  hover:scale-105 duration-200">
+
+                                    <img src="assets/upload.png" alt="" srcset="" className='w-[60px]' />
+                                    <div className="text-[#5E5E5E] text-[20px] font-bold mt-4">Click to upload a file or drag and drop</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="flex justify-between  mt-6">
                         <div className="w-[352px] h-[352px] bg-white rounded-[32px]"></div>
@@ -52,7 +60,7 @@ function Guide() {
                                 4
                             </div>
                             <div className="text-[40px] pr-5 font-bold pt-6 leading-[48px]">
-                            Review and download the translated video
+                                Review and download the translated video
                             </div>
                         </div>
                         <div className="w-[728px] grow h-[352px] bg-white rounded-[32px]"></div>
