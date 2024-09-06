@@ -12,10 +12,31 @@ function Benefits() {
                     connect with audiences around the world like never before.
                 </div>
                 <div className=" flex flex-wrap justify-center mt-16 my-[64px]">
-                    <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3"></div>
-                    <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3"></div>
-                    <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3"></div>
-                    <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3"></div>
+                    <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3">
+                        <div className="flex flex-col justify-between items-center h-full p-6">
+                            <div className="text-[24px] font-bold">Time-Saving</div>
+                            <div className="text-[18px] text-center">Expand your audience by making content accessible in multiple languages.</div>
+                        </div>
+                    </div>
+                    <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3">
+                    <div className="flex flex-col justify-between items-center h-full p-6">
+                            <div className="text-[24px] font-bold">Global Reach</div>
+                            <img src="assets/map.png" alt="" srcset="" className='w-full'/>
+                            <div className="text-[18px] text-center">Expand your audience by making content accessible in multiple languages.</div>
+                        </div>
+                    </div>
+                    <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3">
+                    <div className="flex flex-col justify-between items-center h-full p-6">
+                            <div className="text-[24px] font-bold">User-Friendly</div>
+                            <div className="text-[18px] text-center">Expand your audience by making content accessible in multiple languages.</div>
+                        </div>
+                    </div>
+                    <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3">
+                    <div className="flex flex-col justify-between items-center h-full p-6">
+                            <div className="text-[24px] font-bold">Cost-Saving</div>
+                            <div className="text-[18px] text-center">Expand your audience by making content accessible in multiple languages.</div>
+                        </div>
+                    </div>
                 </div>
                 <CTAWideBtn />
             </div>
