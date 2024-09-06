@@ -19,7 +19,7 @@ function Guide() {
             </div>
             <div className="mx-2">
 
-            {label}
+                {label}
             </div>
         </div>
     );
@@ -66,10 +66,10 @@ function Guide() {
                     </div>
                     <div className="flex justify-between  mt-6">
                         <div className="w-[352px] h-[352px] bg-white rounded-[32px]">
-                            <div className="flex items-center justify-center h-full w-full">
+                            <div className=" justify-center items-center h-full w-full">
 
                                 <Select
-                                    className="basic-multi-select rounded-full my-3 w-full mx-6"
+                                    className=" rounded-full m-4"
                                     options={countries}
                                     formatOptionLabel={formatOptionLabel}
                                     isSearchable={false}
@@ -87,18 +87,20 @@ function Guide() {
                                 Select the target languages for translation
                             </div>
                         </div>
-                        <div className="w-[352px] h-[352px] bg-white rounded-[32px]">
-                            <div className="flex items-center justify-center h-full w-full">
+                        {/* <div className="w-[352px] h-[352px] bg-white rounded-[32px]"> */}
+                            <div className="w-[352px] h-[352px] bg-white rounded-[32px]">
+                                <div className=" justify-center items-center h-full w-full">
 
-                                <Select
-                                    className="basic-multi-select rounded-full my-3 w-full mx-6"
-                                    options={countries}
-                                    formatOptionLabel={formatOptionLabel}
-                                    isSearchable={false}
-                                    placeholder="Source Language"
-                                    styles={customStyles}
+                                    <Select
+                                        className=" rounded-full m-4"
+                                        options={countries}
+                                        formatOptionLabel={formatOptionLabel}
+                                        isSearchable={false}
+                                        placeholder="Source Language"
+                                        styles={customStyles}
 
-                                />
+                                    />
+                                {/* </div> */}
                             </div>
                         </div>
                     </div>
