@@ -54,7 +54,7 @@ function Guide() {
                                 Upload your video to the platform
                             </div>
                         </div>
-                        <div className="bg-white grow rounded-[32px] p-6 ">
+                        <div className="bg-white grow rounded-[32px] p-8 ">
                             <div className="border-dashed border-2 w-full h-full flex items-center flex-col justify-center border-[#8EAAF9] rounded-[24px]">
                                 <div className="flex flex-col items-center justify-center  hover:scale-105 duration-200">
 
@@ -79,7 +79,7 @@ function Guide() {
                                 />
                             </div>
                         </div>
-                        <div className="w-[352px] h-[352px] rounded-[32px] px-12 p-6">
+                        <div className="w-[352px] h-[352px] rounded-[32px] px-12 p-8">
                             <div className="text-[24px] text-[#0A47F2] font-bold ">
                                 2
                             </div>
@@ -104,7 +104,7 @@ function Guide() {
                     </div>
                     <div className="flex mt-6">
                         <div className="w-[728px] h-[352px] grow bg-white rounded-[32px]"></div>
-                        <div className="w-[352px] h-[352px] rounded-[32px] px-12 p-6">
+                        <div className="w-[352px] h-[352px] rounded-[32px] px-12 p-8">
                             <div className="text-[24px] text-[#0A47F2] font-bold ">
                                 3
                             </div>
@@ -114,7 +114,7 @@ function Guide() {
                         </div>
                     </div>
                     <div className="flex mt-6">
-                        <div className="w-[352px] h-[352px] rounded-[32px] px-6 p-6">
+                        <div className="w-[352px] h-[352px] rounded-[32px] px-6 p-8">
                             <div className="text-[24px] text-[#0A47F2] font-bold ">
                                 4
                             </div>
