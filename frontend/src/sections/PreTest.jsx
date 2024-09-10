@@ -73,7 +73,7 @@ function PreTest() {
 
             <div ref={containerRef} className="font-satoshi bg-[#F0F3F6]  flex w-full h-screen justify-center items-center text-[40px]">
                 <div className="flex scroll-snap-y-mandatory scroll-snap-stop-always ">
-                    <div className="" ref={(el) => (sectionsRef.current[0] = el)}>
+                    <div className="whitespace-nowrap" ref={(el) => (sectionsRef.current[0] = el)}>
                         Perfect solution for
                     </div>
 
